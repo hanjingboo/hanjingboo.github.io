@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hanjingboo.github.io/"/>
-  <updated>2016-05-22T17:04:52.780Z</updated>
+  <updated>2016-05-22T17:09:47.101Z</updated>
   <id>http://hanjingboo.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hanjingboo.github.io/2015/05/23/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://hanjingboo.github.io/2015/05/23/hexo常用命令/</id>
     <published>2015-05-23T01:01:35.000Z</published>
-    <updated>2016-05-22T17:04:52.780Z</updated>
+    <updated>2016-05-22T17:09:47.101Z</updated>
     
     <content type="html">&lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;figure class=&quot;highlight coffeescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;npm&lt;/span&gt; install hexo -g &lt;span class=&quot;comment&quot;&gt;#安装  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;npm&lt;/span&gt; update hexo -g &lt;span class=&quot;comment&quot;&gt;#升级  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo init &lt;span class=&quot;comment&quot;&gt;#初始化&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo n &amp;quot;我的博客&amp;quot;&lt;/code&gt; == &lt;code&gt;hexo new &amp;quot;我的博客&amp;quot;&lt;/code&gt; #新建文章&lt;br&gt;&lt;code&gt;hexo p&lt;/code&gt; == &lt;code&gt;hexo publish&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo g&lt;/code&gt; == &lt;code&gt;hexo generate&lt;/code&gt;#生成&lt;br&gt;&lt;code&gt;hexo s&lt;/code&gt; == &lt;code&gt;hexo server&lt;/code&gt; #启动服务预览&lt;br&gt;&lt;code&gt;hexo d&lt;/code&gt; == &lt;code&gt;hexo deploy&lt;/code&gt;#部署&lt;/p&gt;
@@ -121,7 +121,7 @@
 &lt;p&gt;&lt;strong&gt;解决方法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;3-部署类型设置git&quot;&gt;&lt;a href=&quot;#3-部署类型设置git&quot; class=&quot;headerlink&quot; title=&quot;3.部署类型设置git&quot;&gt;&lt;/a&gt;3.部署类型设置git&lt;/h3&gt;&lt;p&gt;hexo 3.0 部署类型不再是&lt;code&gt;github&lt;/code&gt;，&lt;code&gt;_config.yml&lt;/code&gt; 中修改&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# Deployment&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;## Docs: http:&lt;span class=&quot;comment&quot;&gt;//hexo.io/docs/deployment.html&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;deploy:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  type:&lt;/span&gt; git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;  repository:&lt;/span&gt; git@***.github.com:***&lt;span class=&quot;comment&quot;&gt;/***.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  branch: master&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;4-xcodebuild&quot;&gt;&lt;a href=&quot;#4-xcodebuild&quot; class=&quot;headerlink&quot; title=&quot;4. xcodebuild&quot;&gt;&lt;/a&gt;4. xcodebuild&lt;/h3&gt;&lt;p&gt;xcode-select: error: tool ‘xcodebuild’ requires Xcode, but active developer directory ‘/Library/Developer/CommandLineTools’ is a command line tools instance&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm install bcrypt&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;5-RSS不显示&quot;&gt;&lt;a href=&quot;#5-RSS不显示&quot; class=&quot;headerlink&quot; title=&quot;5. RSS不显示&quot;&gt;&lt;/a&gt;5. RSS不显示&lt;/h3&gt;&lt;h4 id=&quot;安装RSS插件&quot;&gt;&lt;a href=&quot;#安装RSS插件&quot; class=&quot;headerlink&quot; title=&quot;安装RSS插件&quot;&gt;&lt;/a&gt;安装RSS插件&lt;/h4&gt;&lt;p&gt;&lt;code&gt;npm install hexo-generator-feed --save&lt;/code&gt;&lt;/p&gt;
