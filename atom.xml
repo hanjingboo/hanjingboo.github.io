@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hanjingboo.github.io/"/>
-  <updated>2016-05-22T16:44:19.009Z</updated>
+  <updated>2016-05-22T17:04:52.780Z</updated>
   <id>http://hanjingboo.github.io/</id>
   
   <author>
@@ -14,6 +14,149 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo常用命令</title>
+    <link href="http://hanjingboo.github.io/2015/05/23/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://hanjingboo.github.io/2015/05/23/hexo常用命令/</id>
+    <published>2015-05-23T01:01:35.000Z</published>
+    <updated>2016-05-22T17:04:52.780Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;figure class=&quot;highlight coffeescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;npm&lt;/span&gt; install hexo -g &lt;span class=&quot;comment&quot;&gt;#安装  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;npm&lt;/span&gt; update hexo -g &lt;span class=&quot;comment&quot;&gt;#升级  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo init &lt;span class=&quot;comment&quot;&gt;#初始化&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo n &amp;quot;我的博客&amp;quot;&lt;/code&gt; == &lt;code&gt;hexo new &amp;quot;我的博客&amp;quot;&lt;/code&gt; #新建文章&lt;br&gt;&lt;code&gt;hexo p&lt;/code&gt; == &lt;code&gt;hexo publish&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo g&lt;/code&gt; == &lt;code&gt;hexo generate&lt;/code&gt;#生成&lt;br&gt;&lt;code&gt;hexo s&lt;/code&gt; == &lt;code&gt;hexo server&lt;/code&gt; #启动服务预览&lt;br&gt;&lt;code&gt;hexo d&lt;/code&gt; == &lt;code&gt;hexo deploy&lt;/code&gt;#部署&lt;/p&gt;
+&lt;h2 id=&quot;服务器&quot;&gt;&lt;a href=&quot;#服务器&quot; class=&quot;headerlink&quot; title=&quot;服务器&quot;&gt;&lt;/a&gt;服务器&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo server&lt;/code&gt; #Hexo 会监视文件变动并自动更新，您无须重启服务器。&lt;br&gt;&lt;code&gt;hexo server -s&lt;/code&gt; #静态模式&lt;br&gt;&lt;code&gt;hexo server -p 5000&lt;/code&gt; #更改端口&lt;br&gt;&lt;code&gt;hexo server -i 192.168.1.1&lt;/code&gt; #自定义 IP&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo clean&lt;/code&gt; #清除缓存 网页正常情况下可以忽略此条命令&lt;br&gt;&lt;code&gt;hexo g&lt;/code&gt; #生成静态网页&lt;br&gt;&lt;code&gt;hexo d&lt;/code&gt; #开始部署&lt;/p&gt;
+&lt;h3 id=&quot;监视文件变动&quot;&gt;&lt;a href=&quot;#监视文件变动&quot; class=&quot;headerlink&quot; title=&quot;监视文件变动&quot;&gt;&lt;/a&gt;监视文件变动&lt;/h3&gt;&lt;p&gt;&lt;code&gt;hexo generate&lt;/code&gt; #使用 Hexo 生成静态文件快速而且简单&lt;br&gt;&lt;code&gt;hexo generate --watch&lt;/code&gt; #监视文件变动&lt;/p&gt;
+&lt;h3 id=&quot;完成后部署&quot;&gt;&lt;a href=&quot;#完成后部署&quot; class=&quot;headerlink&quot; title=&quot;完成后部署&quot;&gt;&lt;/a&gt;完成后部署&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;两个命令的作用是相同的&lt;br&gt;&lt;code&gt;hexo generate --deploy&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo deploy --generate&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;hexo deploy -g&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo server -g&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;草稿&quot;&gt;&lt;a href=&quot;#草稿&quot; class=&quot;headerlink&quot; title=&quot;草稿&quot;&gt;&lt;/a&gt;草稿&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo publish [layout] &amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;模版&quot;&gt;&lt;a href=&quot;#模版&quot; class=&quot;headerlink&quot; title=&quot;模版&quot;&gt;&lt;/a&gt;模版&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo new &amp;quot;postName&amp;quot;&lt;/code&gt; #新建文章&lt;br&gt;&lt;code&gt;hexo new page &amp;quot;pageName&amp;quot;&lt;/code&gt; #新建页面&lt;br&gt;&lt;code&gt;hexo generate&lt;/code&gt; #生成静态页面至public目录&lt;br&gt;&lt;code&gt;hexo server&lt;/code&gt; #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）&lt;br&gt;&lt;code&gt;hexo deploy&lt;/code&gt; #将.deploy目录部署到GitHub&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo new photo &amp;quot;My Gallery&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo new &amp;quot;Hello World&amp;quot; --lang tw&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;变量&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;layout&lt;/td&gt;
+&lt;td&gt;布局&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td&gt;文件建立日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&quot;highlight groovy&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;title:&lt;/span&gt; 使用Hexo搭建个人博客&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;layout:&lt;/span&gt; post&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;date:&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;2014&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-03&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;-03&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;19&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;07&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;43&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;comments:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;categories:&lt;/span&gt; Blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;tags:&lt;/span&gt; [Hexo]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;keywords:&lt;/span&gt; Hexo, Blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;description:&lt;/span&gt; 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;模版（Scaffold）&quot;&gt;&lt;a href=&quot;#模版（Scaffold）&quot; class=&quot;headerlink&quot; title=&quot;模版（Scaffold）&quot;&gt;&lt;/a&gt;模版（Scaffold）&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo new photo &amp;quot;My Gallery&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;变量&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;layout&lt;/td&gt;
+&lt;td&gt;布局&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td&gt;文件建立日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;设置文章摘要&quot;&gt;&lt;a href=&quot;#设置文章摘要&quot; class=&quot;headerlink&quot; title=&quot;设置文章摘要&quot;&gt;&lt;/a&gt;设置文章摘要&lt;/h2&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;以上是文章摘要 &lt;span class=&quot;comment&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/span&gt; 以下是余下全文&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;写作&quot;&gt;&lt;a href=&quot;#写作&quot; class=&quot;headerlink&quot; title=&quot;写作&quot;&gt;&lt;/a&gt;写作&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hexo new page &amp;lt;title&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;hexo new post &amp;lt;title&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;变量&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;:title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:year&lt;/td&gt;
+&lt;td&gt;建立的年份（4 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:month&lt;/td&gt;
+&lt;td&gt;建立的月份（2 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:i_month&lt;/td&gt;
+&lt;td&gt;建立的月份（去掉开头的零）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:day&lt;/td&gt;
+&lt;td&gt;建立的日期（2 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:i_day&lt;/td&gt;
+&lt;td&gt;建立的日期（去掉开头的零）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;推送到服务器上&quot;&gt;&lt;a href=&quot;#推送到服务器上&quot; class=&quot;headerlink&quot; title=&quot;推送到服务器上&quot;&gt;&lt;/a&gt;推送到服务器上&lt;/h3&gt;&lt;p&gt;&lt;code&gt;hexo n&lt;/code&gt; #写文章&lt;br&gt;&lt;code&gt;hexo g&lt;/code&gt; #生成&lt;br&gt;&lt;code&gt;hexo d&lt;/code&gt; #部署 #可与&lt;code&gt;hexo g&lt;/code&gt;合并为 &lt;code&gt;hexo d -g&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;报错&quot;&gt;&lt;a href=&quot;#报错&quot; class=&quot;headerlink&quot; title=&quot;报错&quot;&gt;&lt;/a&gt;报错&lt;/h2&gt;&lt;h3 id=&quot;1-找不到git部署&quot;&gt;&lt;a href=&quot;#1-找不到git部署&quot; class=&quot;headerlink&quot; title=&quot;1.找不到git部署&quot;&gt;&lt;/a&gt;1.找不到git部署&lt;/h3&gt;&lt;figure class=&quot;highlight gauss&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;ERROR&lt;/span&gt; Deployer &lt;span class=&quot;keyword&quot;&gt;not&lt;/span&gt; found: git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;解决方法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-部署类型设置git&quot;&gt;&lt;a href=&quot;#3-部署类型设置git&quot; class=&quot;headerlink&quot; title=&quot;3.部署类型设置git&quot;&gt;&lt;/a&gt;3.部署类型设置git&lt;/h3&gt;&lt;p&gt;hexo 3.0 部署类型不再是&lt;code&gt;github&lt;/code&gt;，&lt;code&gt;_config.yml&lt;/code&gt; 中修改&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;4-xcodebuild&quot;&gt;&lt;a href=&quot;#4-xcodebuild&quot; class=&quot;headerlink&quot; title=&quot;4. xcodebuild&quot;&gt;&lt;/a&gt;4. xcodebuild&lt;/h3&gt;&lt;p&gt;xcode-select: error: tool ‘xcodebuild’ requires Xcode, but active developer directory ‘/Library/Developer/CommandLineTools’ is a command line tools instance&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm install bcrypt&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5-RSS不显示&quot;&gt;&lt;a href=&quot;#5-RSS不显示&quot; class=&quot;headerlink&quot; title=&quot;5. RSS不显示&quot;&gt;&lt;/a&gt;5. RSS不显示&lt;/h3&gt;&lt;h4 id=&quot;安装RSS插件&quot;&gt;&lt;a href=&quot;#安装RSS插件&quot; class=&quot;headerlink&quot; title=&quot;安装RSS插件&quot;&gt;&lt;/a&gt;安装RSS插件&lt;/h4&gt;&lt;p&gt;&lt;code&gt;npm install hexo-generator-feed --save&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;开启RSS功能&quot;&gt;&lt;a href=&quot;#开启RSS功能&quot; class=&quot;headerlink&quot; title=&quot;开启RSS功能&quot;&gt;&lt;/a&gt;开启RSS功能&lt;/h4&gt;&lt;p&gt;编辑hexo/_config.yml，添加如下代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight crmsh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;rss: /atom.&lt;span class=&quot;keyword&quot;&gt;xml&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;#rss&lt;/span&gt;地址  默认即可&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&quot;开启评论&quot;&gt;&lt;a href=&quot;#开启评论&quot; class=&quot;headerlink&quot; title=&quot;开启评论&quot;&gt;&lt;/a&gt;开启评论&lt;/h4&gt;&lt;p&gt;1.我使用多说代替自带的评论，在&lt;a href=&quot;http://duoshuo.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;多说&lt;/a&gt; 网站注册 &amp;gt; 后台管理 &amp;gt; 添加新站点 &amp;gt; 工具 === 复制通用代码 里面有 short_name&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在根目录 &lt;code&gt;_config.yml&lt;/code&gt; 添加一行 &lt;code&gt;disqus_shortname: jslite&lt;/code&gt; 是在多说注册时产生的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;复制到 &lt;code&gt;themes\landscape\layout\_partial\article.ejs&lt;/code&gt;&lt;br&gt; 把&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight mojolicious&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;%&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;perl&quot;&gt; &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!&lt;span class=&quot;keyword&quot;&gt;index&lt;/span&gt; &amp;amp;&amp;amp; post.comments &amp;amp;&amp;amp; config.disqus_shortname)&amp;#123; &lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;comments&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;disqus_thread&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;noscript&lt;/span&gt;&amp;gt;&lt;/span&gt;Please enable JavaScript to view the &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;//disqus.com/?ref_noscript&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;comments powered by Disqus.&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;noscript&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;%&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;perl&quot;&gt; &amp;#125; &lt;/span&gt;&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;改为&lt;/p&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;if&lt;/span&gt; (!&lt;span class=&quot;attr&quot;&gt;index&lt;/span&gt; &amp;amp;&amp;amp; &lt;span class=&quot;attr&quot;&gt;post.comments&lt;/span&gt; &amp;amp;&amp;amp; &lt;span class=&quot;attr&quot;&gt;config.disqus_shortname&lt;/span&gt;)&amp;#123; %&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;comments&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 多说评论框 start --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;ds-thread&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;data-thread-key&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;%= post.layout %&amp;gt;-&amp;lt;%= post.slug %&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;data-title&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;%= post.title %&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;data-url&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;%= page.permalink %&amp;gt;&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 多说评论框 end --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; duoshuoQuery = &amp;#123;short_name:&lt;span class=&quot;string&quot;&gt;&#39;&amp;lt;%= config.disqus_shortname %&amp;gt;&#39;&lt;/span&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      (&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ds = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.createElement(&lt;span class=&quot;string&quot;&gt;&#39;script&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        ds.type = &lt;span class=&quot;string&quot;&gt;&#39;text/javascript&#39;&lt;/span&gt;;ds.async = &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        ds.src = (&lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.location.protocol == &lt;span class=&quot;string&quot;&gt;&#39;https:&#39;&lt;/span&gt; ? &lt;span class=&quot;string&quot;&gt;&#39;https:&#39;&lt;/span&gt; : &lt;span class=&quot;string&quot;&gt;&#39;http:&#39;&lt;/span&gt;) + &lt;span class=&quot;string&quot;&gt;&#39;//static.duoshuo.com/embed.js&#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        ds.charset = &lt;span class=&quot;string&quot;&gt;&#39;UTF-8&#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        (&lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByTagName(&lt;span class=&quot;string&quot;&gt;&#39;head&#39;&lt;/span&gt;)[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;] &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;         || &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByTagName(&lt;span class=&quot;string&quot;&gt;&#39;body&#39;&lt;/span&gt;)[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;]).appendChild(ds);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;)();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 多说公共JS代码 end --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;section&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;%&lt;/span&gt; &amp;#125; %&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;hexo&quot;&gt;&lt;a href=&quot;#hexo&quot; class=&quot;headerlink&quot; title=&quot;hexo&quot;&gt;&lt;/a&gt;hexo&lt;/h2&gt;&lt;figure class=&quot;highlight coffeescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+    
+    </summary>
+    
+      <category term="技术" scheme="http://hanjingboo.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Hexo" scheme="http://hanjingboo.github.io/categories/%E6%8A%80%E6%9C%AF/Hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://hanjingboo.github.io/tags/hexo/"/>
+    
+      <category term="github" scheme="http://hanjingboo.github.io/tags/github/"/>
+    
+      <category term="博客" scheme="http://hanjingboo.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>前端知识</title>
