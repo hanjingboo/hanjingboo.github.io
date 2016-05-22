@@ -6,9 +6,7 @@
     <entry>
       <title><![CDATA[前端知识]]></title>
       <url>http://hanjingboo.github.io/2015/05/23/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。</p>
-</blockquote>
+      <content type="html"><![CDATA[<p>前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。</p>
 <ul>
 <li><p>前端工程师</p>
 <ul>
@@ -21,17 +19,15 @@
 <li>(win10)<a href="http://zh.wikipedia.org/wiki/Spartan" target="_blank" rel="external">spartan</a></li>
 </ul>
 </li>
-<li>编程语言<ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/JavaScript" target="_blank" rel="external">JavaScript</a>/<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a></li>
-<li><a href="http://coffeescript.org/" target="_blank" rel="external">CoffeeScript</a></li>
-<li><a href="http://www.typescriptlang.org/" target="_blank" rel="external">TypeScript</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
 <a id="more"></a>
-<pre><code>*   切页面
+<pre><code>*   编程语言
+    *   [JavaScript](https://developer.mozilla.org/en-US/docs/JavaScript)/[Node.js](http://nodejs.org/)
+    *   [CoffeeScript](http://coffeescript.org/)
+    *   [TypeScript](http://www.typescriptlang.org/)
+*   切页面
     *   [HTML](http://www.w3.org/html/)/[HTML5](http://www.w3.org/TR/html5/)
     *   [CSS/CSS3](http://www.w3.org/Style/CSS/)
     *   [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)
