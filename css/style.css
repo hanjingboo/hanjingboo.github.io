@@ -160,7 +160,9 @@ div {
     text-align: left;
     font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; }
     .post .post-title a {
-      color: #555; }
+      color: #000; }
+    .post .post-title a:hover {
+      color: #E74C3C; }
   .post .post-meta {
     padding: 0;
     margin: 15px 0 0;
@@ -176,6 +178,12 @@ div {
       font-family: "FontAwesome";
       content: "\f07c";
       padding-right: 0.3em; }
+    .post .post-meta .category a:before {
+      font-family: "FontAwesome";
+      content: "\f105";
+      padding-right: 0.3em; }
+    .post .post-meta .category a:after {
+      content: " "; }
     .post .post-meta #busuanzi_value_page_pv:before {
       font-family: "FontAwesome";
       content: "\f024";
