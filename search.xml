@@ -8,7 +8,8 @@
       <url>http://hanjingboo.github.io/2015/05/23/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/</url>
       <content type="html"><![CDATA[<p>前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。<br><a id="more"></a></p>
 <ul>
-<li>前端工程师<ul>
+<li><p>前端工程师</p>
+<ul>
 <li>浏览器<ul>
 <li>IE6/<a href="http://www.microsoft.com/en-US/download/details.aspx?id=2" target="_blank" rel="external">7</a>/<a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8" target="_blank" rel="external">8</a>/<a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages" target="_blank" rel="external">9</a>/<a href="http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages" target="_blank" rel="external">10</a>/<a href="http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages" target="_blank" rel="external">11</a> (Trident)</li>
 <li><a href="http://www.mozilla.org/en-US/" target="_blank" rel="external">Firefox</a> (Gecko)</li>
