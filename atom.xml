@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hanjingboo.github.io/"/>
-  <updated>2016-05-22T16:19:55.890Z</updated>
+  <updated>2016-05-22T16:40:25.775Z</updated>
   <id>http://hanjingboo.github.io/</id>
   
   <author>
@@ -20,12 +20,11 @@
     <link href="http://hanjingboo.github.io/2015/05/23/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
     <id>http://hanjingboo.github.io/2015/05/23/前端知识/</id>
     <published>2015-05-22T22:53:21.000Z</published>
-    <updated>2016-05-22T16:19:55.890Z</updated>
+    <updated>2016-05-22T16:40:25.775Z</updated>
     
-    <content type="html">&lt;p&gt;前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。&lt;/p&gt;
+    <content type="html">&lt;p&gt;前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;前端工程师&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;前端工程师&lt;ul&gt;
 &lt;li&gt;浏览器&lt;ul&gt;
 &lt;li&gt;IE6/&lt;a href=&quot;http://www.microsoft.com/en-US/download/details.aspx?id=2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;7&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;8&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;9&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;10&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;11&lt;/a&gt; (Trident)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.mozilla.org/en-US/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firefox&lt;/a&gt; (Gecko)&lt;/li&gt;
@@ -35,181 +34,242 @@
 &lt;li&gt;(win10)&lt;a href=&quot;http://zh.wikipedia.org/wiki/Spartan&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;spartan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;编程语言&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/JavaScript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript&lt;/a&gt;/&lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://coffeescript.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CoffeeScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typescriptlang.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TypeScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;切页面&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/html/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML&lt;/a&gt;/&lt;a href=&quot;http://www.w3.org/TR/html5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/Style/CSS/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSS/CSS3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sass-lang.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sass&lt;/a&gt;/&lt;a href=&quot;http://lesscss.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LESS&lt;/a&gt;/&lt;a href=&quot;http://learnboost.github.io/stylus/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Stylus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.photoshop.com/products/photoshop&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PhotoShop&lt;/a&gt;/&lt;a href=&quot;http://www.getpaint.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Paint.net&lt;/a&gt;/&lt;a href=&quot;http://www.adobe.com/cn/products/fireworks.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fireworks&lt;/a&gt;/&lt;a href=&quot;http://www.gimp.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GIMP&lt;/a&gt;/&lt;a href=&quot;http://bohemiancoding.com/sketch/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sketch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;开发工具&lt;ul&gt;
+&lt;li&gt;编辑器和IDE&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vim.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VIM&lt;/a&gt;/&lt;a href=&quot;http://www.sublimetext.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sublime Text2||3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://notepad-plus-plus.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Notepad++&lt;/a&gt;/&lt;a href=&quot;http://www.editplus.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EditPlus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jetbrains.com/idea/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WebStorm/IDEA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emacs&lt;/a&gt; &lt;a href=&quot;http://emacswiki.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EmacsWiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://brackets.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Brackets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://atom.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Atom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://limetext.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Lime Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lighttable.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Light Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.codebox.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Codebox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://macromates.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TextMate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://neovim.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Neovim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.activestate.com/komodo-edit&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Komodo IDE / Edit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Eclipse系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://netbeans.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NetBeans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://c9.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cloud9 IDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.dcloud.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HBuilder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;调试工具&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getfirebug.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firebug&lt;/a&gt;/&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/firecookie/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Firecookie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://developer.yahoo.com/yslow/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YSlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.microsoft.com/en-us/download/details.aspx?id=18359&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IEDeveloperToolbar&lt;/a&gt;/&lt;a href=&quot;http://www.my-debugbar.com/wiki/IETester/HomePage&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IETester&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fiddler2.com/fiddler2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/chrome-developer-tools/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chrome Dev Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.opera.com/dragonfly/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dragonfly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.debugbar.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DebugBar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Venkman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Venkman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;版本管理&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;git-scm.com/&quot;&gt;Git&lt;/a&gt;/&lt;a href=&quot;http://subversion.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SVN&lt;/a&gt;/&lt;a href=&quot;http://mercurial.selenic.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mercurial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;/&lt;a href=&quot;https://about.gitlab.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitLab&lt;/a&gt;/&lt;a href=&quot;https://bitbucket.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bitbucket&lt;/a&gt;/&lt;a href=&quot;http://code.google.com/hosting/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google Code&lt;/a&gt;/&lt;a href=&quot;https://gitorious.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gitorious&lt;/a&gt;/&lt;a href=&quot;http://savannah.gnu.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GNU Savannah&lt;/a&gt;/&lt;a href=&quot;https://launchpad.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Launchpad&lt;/a&gt;/&lt;a href=&quot;http://sourceforge.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SourceForge&lt;/a&gt;/&lt;a href=&quot;http://www.collab.net/products/teamforge&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TeamForge&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;pre&gt;&lt;code&gt;*   编程语言
-    *   [JavaScript](https://developer.mozilla.org/en-US/docs/JavaScript)/[Node.js](http://nodejs.org/)
-    *   [CoffeeScript](http://coffeescript.org/)
-    *   [TypeScript](http://www.typescriptlang.org/)
-*   切页面
-    *   [HTML](http://www.w3.org/html/)/[HTML5](http://www.w3.org/TR/html5/)
-    *   [CSS/CSS3](http://www.w3.org/Style/CSS/)
-    *   [Sass](http://sass-lang.com/)/[LESS](http://lesscss.org/)/[Stylus](http://learnboost.github.io/stylus/)
-    *   [PhotoShop](http://www.photoshop.com/products/photoshop)/[Paint.net](http://www.getpaint.net/)/[Fireworks](http://www.adobe.com/cn/products/fireworks.html)/[GIMP](http://www.gimp.org/)/[Sketch](http://bohemiancoding.com/sketch/)
-*   开发工具
-    *   编辑器和IDE
-        *   [VIM](http://www.vim.org/)/[Sublime Text2||3](http://www.sublimetext.com/)
-        *   [Notepad++](http://notepad-plus-plus.org/)/[EditPlus](http://www.editplus.com/)
-        *   [WebStorm/IDEA](http://www.jetbrains.com/idea/)
-        *   [Emacs](http://www.gnu.org/software/emacs/) [EmacsWiki](http://emacswiki.org)
-        *   [Brackets](http://brackets.io)
-        *   [Atom](https://atom.io/)
-        *   [Lime Text](http://limetext.org/)
-        *   [Light Table](http://lighttable.com/)
-        *   [Codebox](https://www.codebox.io/)
-        *   [TextMate](http://macromates.com/)
-        *   [Neovim](http://neovim.org/)
-        *   [Komodo IDE / Edit](http://www.activestate.com/komodo-edit)
-        *   [Eclipse系列](http://www.eclipse.org/)
-        *   [Visual Studio](http://www.visualstudio.com/)
-        *   [NetBeans](https://netbeans.org/)
-        *   [Cloud9 IDE](http://c9.io/)
-        *   [HBuilder](http://www.dcloud.io/)
-    *   调试工具
-        *   [Firebug](http://getfirebug.com/)/[Firecookie](https://addons.mozilla.org/en-US/firefox/addon/firecookie/)
-        *   [YSlow](http://developer.yahoo.com/yslow/)
-        *   [IEDeveloperToolbar](http://www.microsoft.com/en-us/download/details.aspx?id=18359)/[IETester](http://www.my-debugbar.com/wiki/IETester/HomePage)
-        *   [Fiddler](http://www.fiddler2.com/fiddler2/)
-        *   [Chrome Dev Tools](https://developers.google.com/chrome-developer-tools/)
-        *   [Dragonfly](http://www.opera.com/dragonfly/)
-        *   [DebugBar](http://www.debugbar.com/)
-        *   [Venkman](https://developer.mozilla.org/en-US/docs/Venkman)
-    *   版本管理
-        *   [Git](git-scm.com/)/[SVN](http://subversion.apache.org/)/[Mercurial](http://mercurial.selenic.com/)
-        *   [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)/[Bitbucket](https://bitbucket.org/)/[Google Code](http://code.google.com/hosting/)/[Gitorious](https://gitorious.org/)/[GNU Savannah](http://savannah.gnu.org/)/[Launchpad](https://launchpad.net/)/[SourceForge](http://sourceforge.net/)/[TeamForge](http://www.collab.net/products/teamforge)
-*   代码质量
-    *   Coding style
-        *   [JSLint](http://www.jslint.com/)/[JSHint](http://www.jshint.com/)/[jscs](https://github.com/mdevils/node-jscs)
-        *   [CSSLint](http://csslint.net/)
-        *   [Markup Validation Service](http://validator.w3.org/)
-        *   [HTML Validators](https://validator.whatwg.org/)
-    *   单元测试
-        *   [QUnit](http://qunitjs.com/)/[Jasmine](http://pivotal.github.com/jasmine/)
-        *   [Mocha](http://visionmedia.github.com/mocha/)/[Should](https://github.com/visionmedia/should.js/)/[Chai](http://chaijs.com/)/[Expect](https://github.com/LearnBoost/expect.js/)
-        *   [Unit JS](http://unitjs.com/)
-    *   自动化测试
-        *   [WebDriver](http://docs.seleniumhq.org/docs/03_webdriver.jsp)/[Protractor](https://github.com/angular/protractor)/[Karma Runner](https://github.com/karma-runner/karma)/[Sahi](http://sahi.co.in/)
-        *   [phantomjs](http://phantomjs.org/)
-        *   [SourceLabs](https://saucelabs.com/)/[BrowserStack](http://www.browserstack.com/)
-*   前端库/框架
-    *   [jQuery](http://jquery.com/)/[Underscore](http://underscorejs.org/)/[Mootools](http://mootools.net/)/[Prototype.js](http://www.prototypejs.org/)
-    *   [YUI3](http://yuilibrary.com/projects/yui3/)/[Dojo](http://dojotoolkit.org/)/[ExtJS](http://www.sencha.com/products/extjs)/[KISSY](http://docs.kissyui.com/)
-    *   [Backbone](http://backbonejs.org/)/[KnockoutJS](http://knockoutjs.com/)/[Emberjs](http://emberjs.com/)
-    *   [AngularJS](http://angularjs.org/)
-        *   [Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk)
-    *   [Bootstrap](http://getbootstrap.com/)
-    *   [Semantic UI](http://www.semantic-ui.com/)
-    *   [Juice UI](http://juiceui.com/)
-    *   [Web Atoms](http://webatomsjs.neurospeech.com/)
-    *   [Polymer](http://docs.polymerchina.org/)
-    *   [Dhtmlx](http://dhtmlx.com/)
-    *   [qooxdoo](http://qooxdoo.org/)
-    *   [React](http://facebook.github.io/react/)
-    *   [Brick](http://mozbrick.github.io/)
-    *   [Knockout](http://knockoutjs.com/)
-*   前端标准/规范
-    *   HTTP/1.1: RFCs 7230-7235
-    *   [HTTP/2](https://http2.github.io/)
-    *   [ECMAScript3/5](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
-    *   [W3C: DOM/BOM/XHTML/XML/JSON/JSONP/…](http://www.w3.org/TR/)
-    *   [CommonJS Modules](http://wiki.commonjs.org/wiki/Modules/1.0)/[AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)
-    *   [HTML5](http://www.w3.org/html/wg/drafts/html/master/)/[CSS3](http://www.w3.org/Style/CSS/specs.en.html)
-    *   [Semantic Web](http://semanticweb.org/)
-        *   [MicroData](http://schema.org)
-        *   [RDFa](http://www.w3.org/TR/rdfa-core/)
-    *   [Web Accessibility](http://www.w3.org/WAI/)
-        *   [WCAG](http://www.w3.org/TR/WAI-WEBCONTENT/)
-        *   [Role Attribute](http://www.w3.org/TR/role-attribute/)
-        *   [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
-*   性能
-    *   [JSPerf](http://jsperf.com/)
-    *   [YSlow 35 rules](http://developer.yahoo.com/performance/rules.html)
-    *   [PageSpeed](https://developers.google.com/speed/pagespeed/)
-    *   [HTTPWatch](http://www.httpwatch.com/)
-    *   [DynaTrace’s Ajax](http://www.compuware.com/application-performance-management/dynatrace-ajax-download.html)
-    *   [高性能JavaScript](http://book.douban.com/subject/5362856/)
-*   SEO
-*   编程知识储备
-    *   [数据结构](http://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
-    *   OOP/AOP
-    *   [原型链](http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/)/作用域链
-    *   [闭包](http://www.jibbering.com/faq/notes/closures/)
-    *   [编程范型](http://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B)
-    *   [设计模式](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-    *   [Javascript Tips](http://sanshi.me/articles/JavaScript-Garden-CN/html/index.html)
-*   部署流程
-    *   压缩合并
-        *   [YUI Compressor](http://developer.yahoo.com/yui/compressor/)
-        *   [Google Clousure Complier](https://developers.google.com/closure/compiler/)
-        *   [UglifyJS](https://github.com/mishoo/UglifyJS)
-        *   [CleanCSS](https://github.com/GoalSmashers/clean-css)
-    *   文档输出
-        *   [JSDoc](https://github.com/jsdoc3/jsdoc)
-        *   [Dox](https://github.com/visionmedia/dox)/[Doxmate](https://github.com/JacksonTian/doxmate)/[Grunt-Doxmate](https://github.com/luozhihua/grunt-doxmate)
-    *   项目构建工具
-        *   [make](http://www.gnu.org/software/make/)/[Ant](http://ant.apache.org/)
-        *   [GYP](http://code.google.com/p/gyp/)
-        *   [Grunt](http://gruntjs.com/)
-        *   [Gulp](http://gulpjs.com/)
-        *   [Yeoman](http://yeoman.io/)
-        *   [FIS](http://fis.baidu.com/)
-        *   [Mod](https://github.com/modulejs/modjs)
-*   代码组织
-    *   类库模块化
-        *   [CommonJS](http://www.commonjs.org/)/AMD
-        *   [YUI3模块](http://yuilibrary.com/projects/yui3/)
-    *   业务逻辑模块化
-        *   [bower](https://github.com/twitter/bower)/[component](https://github.com/component/component)
-    *   文件加载
-        *   [LABjs](http://labjs.com/)
-        *   [SeaJS](http://seajs.org/)/[Require.js](http://requirejs.org/)
-    *   模块化预处理器
-        *   [Browserify](https://github.com/substack/node-browserify)
-*   安全
-    *   [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery)/[XSS](http://en.wikipedia.org/wiki/Cross-site_scripting)
-    *   [CSP](http://www.w3.org/TR/CSP/)
-    *   [Same-origin policy](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy)
-    *   ADsafe/Caja/Sandbox
-*   移动Web
-    *   HTML5/CSS3
-    *   [响应式网页设计](http://zh.wikipedia.org/wiki/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1)
-    *   [Zeptojs](http://zeptojs.com/)/[iScroll](http://cubiq.org/iscroll)
-    *   V5/[Sencha Touch](http://www.sencha.com/products/touch)
-    *   [PhoneGap](http://phonegap.com/)
-    *   [jQuery Mobile](http://jquerymobile.com/)
-    *   [W3C Mobile Web Initiative](http://www.w3.org/Mobile/)
-    *   [W3C mobileOK Checker](http://validator.w3.org/mobile/)
-    *   [Open Mobile Alliance](http://openmobilealliance.org/)
-*   前沿技术社区/会议
-    *   [D2](http://d2forum.org)/[WebRebuild](http://www.webrebuild.org/)
-    *   NodeParty/[W3CTech](http://w3ctech.com)/[HTML5梦工厂](http://www.html5dw.com)
-    *   [JSConf](http://jsconf.com/)/[沪JS(JSConf.cn)](http://jsconf.cn)
-    *   QCon/Velocity/SDCC
-    *   [JSConf](http://jsconf.com/)/[NodeConf](http://www.nodeconf.com/)
-    *   [CSSConf](http://cssconf.com/)
-    *   YDN/YUIConf
-    *   HybridApp
-    *   [WHATWG](http://whatwg.org/)
-*   计算机知识储备
-    *   编译原理
-    *   [计算机网络](http://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)
-    *   [操作系统](http://zh.wikipedia.org/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
-    *   算法原理
-    *   软件工程/软件测试原理
-    *   [Unicode](http://www.unicode.org/)
-*   软技能
-    *   知识管理/总结分享
-    *   沟通技巧/团队协作
-    *   需求管理/PM
-    *   交互设计/可用性/可访问性知识
-*   可视化
-    *   SVG/Canvas/VML
-    *   SVG: [D3](http://d3js.org/)/[Raphaël](http://raphaeljs.com/)/[Snap.svg](http://snapsvg.io/)/[DataV](http://datavlab.org/datavjs/)
-    *   Canvas: [CreateJS](http://www.createjs.com/)/[KineticJS](http://kineticjs.com/)
-    *   [WebGL](http://en.wikipedia.org/wiki/WebGL)/[Three.JS](http://threejs.org/)
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代码质量&lt;ul&gt;
+&lt;li&gt;Coding style&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jslint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSLint&lt;/a&gt;/&lt;a href=&quot;http://www.jshint.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSHint&lt;/a&gt;/&lt;a href=&quot;https://github.com/mdevils/node-jscs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jscs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://csslint.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSSLint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://validator.w3.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markup Validation Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://validator.whatwg.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML Validators&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;单元测试&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://qunitjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QUnit&lt;/a&gt;/&lt;a href=&quot;http://pivotal.github.com/jasmine/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jasmine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://visionmedia.github.com/mocha/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mocha&lt;/a&gt;/&lt;a href=&quot;https://github.com/visionmedia/should.js/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Should&lt;/a&gt;/&lt;a href=&quot;http://chaijs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chai&lt;/a&gt;/&lt;a href=&quot;https://github.com/LearnBoost/expect.js/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Expect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://unitjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Unit JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自动化测试&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.seleniumhq.org/docs/03_webdriver.jsp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WebDriver&lt;/a&gt;/&lt;a href=&quot;https://github.com/angular/protractor&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Protractor&lt;/a&gt;/&lt;a href=&quot;https://github.com/karma-runner/karma&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Karma Runner&lt;/a&gt;/&lt;a href=&quot;http://sahi.co.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sahi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://phantomjs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;phantomjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://saucelabs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SourceLabs&lt;/a&gt;/&lt;a href=&quot;http://www.browserstack.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BrowserStack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;前端库/框架&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jQuery&lt;/a&gt;/&lt;a href=&quot;http://underscorejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Underscore&lt;/a&gt;/&lt;a href=&quot;http://mootools.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mootools&lt;/a&gt;/&lt;a href=&quot;http://www.prototypejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Prototype.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yuilibrary.com/projects/yui3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YUI3&lt;/a&gt;/&lt;a href=&quot;http://dojotoolkit.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dojo&lt;/a&gt;/&lt;a href=&quot;http://www.sencha.com/products/extjs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ExtJS&lt;/a&gt;/&lt;a href=&quot;http://docs.kissyui.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KISSY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://backbonejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Backbone&lt;/a&gt;/&lt;a href=&quot;http://knockoutjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KnockoutJS&lt;/a&gt;/&lt;a href=&quot;http://emberjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emberjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://angularjs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AngularJS&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Batarang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.semantic-ui.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Semantic UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://juiceui.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Juice UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://webatomsjs.neurospeech.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Web Atoms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.polymerchina.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Polymer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dhtmlx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dhtmlx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://qooxdoo.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;qooxdoo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://facebook.github.io/react/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mozbrick.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Brick&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://knockoutjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Knockout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;前端标准/规范&lt;ul&gt;
+&lt;li&gt;HTTP/1.1: RFCs 7230-7235&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://http2.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTTP/2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ecma-international.org/publications/standards/Ecma-262.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ECMAScript3/5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3C: DOM/BOM/XHTML/XML/JSON/JSONP/…&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.commonjs.org/wiki/Modules/1.0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CommonJS Modules&lt;/a&gt;/&lt;a href=&quot;https://github.com/amdjs/amdjs-api/wiki/AMD&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AMD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/html/wg/drafts/html/master/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML5&lt;/a&gt;/&lt;a href=&quot;http://www.w3.org/Style/CSS/specs.en.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSS3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://semanticweb.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Semantic Web&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://schema.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MicroData&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/rdfa-core/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;RDFa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/WAI/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Web Accessibility&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/WAI-WEBCONTENT/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WCAG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/role-attribute/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Role Attribute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/wai-aria/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WAI-ARIA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;性能&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsperf.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSPerf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://developer.yahoo.com/performance/rules.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YSlow 35 rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PageSpeed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.httpwatch.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTTPWatch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.compuware.com/application-performance-management/dynatrace-ajax-download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DynaTrace’s Ajax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.douban.com/subject/5362856/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;高性能JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SEO&lt;/li&gt;
+&lt;li&gt;编程知识储备&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;数据结构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OOP/AOP&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;原型链&lt;/a&gt;/作用域链&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jibbering.com/faq/notes/closures/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;闭包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;编程范型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设计模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sanshi.me/articles/JavaScript-Garden-CN/html/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Javascript Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;部署流程&lt;ul&gt;
+&lt;li&gt;压缩合并&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://developer.yahoo.com/yui/compressor/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YUI Compressor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/closure/compiler/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google Clousure Complier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mishoo/UglifyJS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UglifyJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/GoalSmashers/clean-css&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CleanCSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;文档输出&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jsdoc3/jsdoc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSDoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/visionmedia/dox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dox&lt;/a&gt;/&lt;a href=&quot;https://github.com/JacksonTian/doxmate&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Doxmate&lt;/a&gt;/&lt;a href=&quot;https://github.com/luozhihua/grunt-doxmate&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Grunt-Doxmate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;项目构建工具&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.gnu.org/software/make/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;make&lt;/a&gt;/&lt;a href=&quot;http://ant.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.google.com/p/gyp/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GYP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gruntjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Grunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gulpjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Yeoman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fis.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FIS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/modulejs/modjs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mod&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代码组织&lt;ul&gt;
+&lt;li&gt;类库模块化&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.commonjs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CommonJS&lt;/a&gt;/AMD&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yuilibrary.com/projects/yui3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YUI3模块&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;业务逻辑模块化&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/twitter/bower&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;bower&lt;/a&gt;/&lt;a href=&quot;https://github.com/component/component&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;component&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;文件加载&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://labjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LABjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://seajs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SeaJS&lt;/a&gt;/&lt;a href=&quot;http://requirejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Require.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;模块化预处理器&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/substack/node-browserify&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Browserify&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;安全&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Cross-site_request_forgery&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSRF&lt;/a&gt;/&lt;a href=&quot;http://en.wikipedia.org/wiki/Cross-site_scripting&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/CSP/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/docs/Web/Security/Same-origin_policy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Same-origin policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ADsafe/Caja/Sandbox&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;移动Web&lt;ul&gt;
+&lt;li&gt;HTML5/CSS3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;响应式网页设计&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zeptojs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zeptojs&lt;/a&gt;/&lt;a href=&quot;http://cubiq.org/iscroll&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iScroll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;V5/&lt;a href=&quot;http://www.sencha.com/products/touch&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sencha Touch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://phonegap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PhoneGap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jquerymobile.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;jQuery Mobile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.w3.org/Mobile/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3C Mobile Web Initiative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://validator.w3.org/mobile/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3C mobileOK Checker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://openmobilealliance.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Open Mobile Alliance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;前沿技术社区/会议&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://d2forum.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;D2&lt;/a&gt;/&lt;a href=&quot;http://www.webrebuild.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WebRebuild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NodeParty/&lt;a href=&quot;http://w3ctech.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;W3CTech&lt;/a&gt;/&lt;a href=&quot;http://www.html5dw.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML5梦工厂&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsconf.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSConf&lt;/a&gt;/&lt;a href=&quot;http://jsconf.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;沪JS(JSConf.cn)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QCon/Velocity/SDCC&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jsconf.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JSConf&lt;/a&gt;/&lt;a href=&quot;http://www.nodeconf.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NodeConf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cssconf.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSSConf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YDN/YUIConf&lt;/li&gt;
+&lt;li&gt;HybridApp&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://whatwg.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WHATWG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;计算机知识储备&lt;ul&gt;
+&lt;li&gt;编译原理&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;计算机网络&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;操作系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;算法原理&lt;/li&gt;
+&lt;li&gt;软件工程/软件测试原理&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.unicode.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Unicode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;软技能&lt;ul&gt;
+&lt;li&gt;知识管理/总结分享&lt;/li&gt;
+&lt;li&gt;沟通技巧/团队协作&lt;/li&gt;
+&lt;li&gt;需求管理/PM&lt;/li&gt;
+&lt;li&gt;交互设计/可用性/可访问性知识&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;可视化&lt;ul&gt;
+&lt;li&gt;SVG/Canvas/VML&lt;/li&gt;
+&lt;li&gt;SVG: &lt;a href=&quot;http://d3js.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;D3&lt;/a&gt;/&lt;a href=&quot;http://raphaeljs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raphaël&lt;/a&gt;/&lt;a href=&quot;http://snapsvg.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Snap.svg&lt;/a&gt;/&lt;a href=&quot;http://datavlab.org/datavjs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DataV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Canvas: &lt;a href=&quot;http://www.createjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CreateJS&lt;/a&gt;/&lt;a href=&quot;http://kineticjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KineticJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/WebGL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WebGL&lt;/a&gt;/&lt;a href=&quot;http://threejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Three.JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;后端知识&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;编程语言&lt;ul&gt;
@@ -250,22 +310,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;前端工程师&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;浏览器&lt;ul&gt;
-&lt;li&gt;IE6/&lt;a href=&quot;http://www.microsoft.com/en-US/download/details.aspx?id=2&quot;&gt;7&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8&quot;&gt;8&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages&quot;&gt;9&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages&quot;&gt;10&lt;/a&gt;/&lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages&quot;&gt;11&lt;/a&gt; (Trident)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.mozilla.org/en-US/&quot;&gt;Firefox&lt;/a&gt; (Gecko)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.google.com/chrome&quot;&gt;Chrome&lt;/a&gt;/&lt;a href=&quot;http://www.chromium.org/&quot;&gt;Chromium&lt;/a&gt; (Blink)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; (WebKit)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.opera.com/&quot;&gt;Opera&lt;/a&gt; (Blink)&lt;/li&gt;
-&lt;li&gt;(win10)&lt;a href=&quot;http://zh.wikipedia.org/wiki/Spartan&quot;&gt;spartan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;p&gt;前言：包含前端开发知识的方方面面，方便查漏补缺，完善知识体系。&lt;br&gt;
     
     </summary>
     
